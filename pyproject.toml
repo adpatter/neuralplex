@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "neuralplex"
 dynamic = ["version"]
 authors = [
-  { name="FAR Analytics & Research", email="adam@farar.net" },
+  { name="FAR Analytics & Research", email="adpatter2000@gmail.com" },
 ]
 description = "An object oriented neural network implementation."
 readme = "README.md"
