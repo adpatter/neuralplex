@@ -41,7 +41,7 @@ from neuralplex import Network, Layer, Neuron
 STEP = 1e-4
 ```
 
-#### Construct a neural network by specifying the Neurons for each Layer and adding the Layers to a Network. 
+#### Construct a neural network by specifying the Neurons for each Layer and adding the Layers to a Network.
 
 The resulting neural network will have 4 input neurons, 1 ouput neuron, and 8 neurons in the hidden layer.
 
@@ -52,7 +52,7 @@ l3 = Layer(neurons=[Neuron(m=random())], step=STEP)
 n1 = Network([l1, l2, l3])
 ```
 
-#### With the Network defined, you can train the network. 
+#### With the Network defined, you can train the network.
 
 Here the network is trained to recognize the nibble 1111 as the decimal number 15.
 
@@ -148,9 +148,9 @@ visualize(n)
 
 The green nodes comprise the inputs, the red nodes comprise the hidden layer, and the yellow node is the output. The size of the Neuron is proportional to its coefficient and dependent on its random initialization and subsequent training.
 
-|                             Before Training                              |                             After Training                             |
-| :----------------------------------------------------------------------: | :--------------------------------------------------------------------: |
-| ![Neural-pleX Before Training](https://raw.githubusercontent.com/far-analytics/neuralplex/refs/heads/main/images/Neural-pleX_before_training.png) | ![Neural-pleX After Training](https://github.com/far-analytics/neuralplex/blob/main/images/Neural-pleX_after_training.png?raw=true) |
+|                                                                  Before Training                                                                  |                                                                 After Training                                                                  |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Neural-pleX Before Training](https://raw.githubusercontent.com/far-analytics/neuralplex/refs/heads/main/images/Neural-pleX_before_training.png) | ![Neural-pleX After Training](https://raw.githubusercontent.com/far-analytics/neuralplex/refs/heads/main/images/Neural-pleX_after_training.png) |
 
 ## Test
 
@@ -221,6 +221,7 @@ OK
 ```
 
 ## Support
-If you have a feature request or run into any issues, feel free to submit an [issue](https://github.com/far-analytics/neuralplex/issues) or start a [discussion](https://github.com/far-analytics/neuralplex/discussions). You’re also welcome to reach out directly to one of the authors.
+
+If you have a feature request or run into any issues, feel free to submit an [issue](https://github.com/far-analytics/neuralplex/issues). You’re also welcome to reach out to one of the authors.
 
 - [Adam Patterson](https://github.com/adpatter)
